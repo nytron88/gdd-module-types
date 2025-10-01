@@ -31,7 +31,6 @@ export type Chat = {
   project_id: string; // FK -> Project
   user_id: string; // FK -> User who started it
   title?: string;
-  messages: Message[];
   created_at: string;
   updated_at: string;
 };
