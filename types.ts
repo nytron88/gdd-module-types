@@ -93,7 +93,6 @@ export type GeneratedDocument = {
   id: string; // PK (uuid)
   project_id: string; // FK -> Project
   s3_key: string;
-  s3_url: string;
   page_count: number;
   created_at: string;
 };
