@@ -36,7 +36,6 @@ export type Chat = {
   project_id: string; // FK -> Project
   user_id: string; // FK -> User who started it
   title?: string;
-  messages: Message[];
   created_at: string;
   updated_at: string;
 };
@@ -99,7 +98,6 @@ export type GeneratedDocument = {
   generated_id: string; // PK (uuid)
   project_id: string; // FK -> Project
   s3_key: string;
-  s3_url: string;
   page_count: number;
   created_at: string;
 };
